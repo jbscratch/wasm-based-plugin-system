@@ -11,5 +11,8 @@
   "workspaces": [
     "packages/plugin-a",
     "packages/plugin-b"
-  ]
+  ],
+  "devDependencies": {
+    "assemblyscript": "^0.24.1"
+  }
 }
