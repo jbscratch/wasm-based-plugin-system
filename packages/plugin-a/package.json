@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
   },
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC"
