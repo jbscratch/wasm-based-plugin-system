@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Idea: Have a wasm executable file together with a webcomponent for some settings ui stuff packaged as an npm repo",
   "scripts": {
-    "build-a": "npm run asbuild:debug -w plugin-a"
+    "build-a": "npm run asbuild:debug -w plugin-a",
+    "release-a": "npm run asbuild:release -w plugin-a"
   },
   "keywords": [],
   "author": "",
