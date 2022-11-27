@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Idea: Have a wasm executable file together with a webcomponent for some settings ui stuff packaged as an npm repo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-a": "npm run asbuild:debug -w plugin-a"
   },
   "keywords": [],
   "author": "",
