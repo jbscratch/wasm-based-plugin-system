@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Idea: Have a wasm executable file together with a webcomponent for some settings ui stuff packaged as an npm repo",
   "scripts": {
+    "start": "npm run dev -w playground",
     "build-a": "npm run asbuild:debug -w plugin-a",
     "release-a": "npm run asbuild:release -w plugin-a"
   },
@@ -11,7 +12,8 @@
   "license": "ISC",
   "workspaces": [
     "packages/plugin-a",
-    "packages/plugin-b"
+    "packages/plugin-b",
+    "apps/playground"
   ],
   "devDependencies": {
     "assemblyscript": "^0.24.1"
