@@ -2,10 +2,12 @@
   "name": "plugin-a",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "assemblyscript": "^0.24.1"
+  }
 }
